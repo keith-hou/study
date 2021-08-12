@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	_ "go.mongodb.org/mongo-driver/bson"
 	"log"
 	"study/cmd"
 )
